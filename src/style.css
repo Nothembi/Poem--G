@@ -1,5 +1,5 @@
 body {
-  background-color: #f9f7fe;
+  background-color: #478652;
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -64,7 +64,7 @@ form {
   padding: 14px 24px;
 }
 
-.poem {
+.names {
   font-size: 16px;
   background-color: #fff;
   padding: 20px;
@@ -79,7 +79,7 @@ form {
 
 
 
-.poem strong {
+.names strong {
   color: #885df1;
 }
 
