@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css">
     <title>My Poem Generator</title>
 </head>
@@ -13,21 +14,14 @@
     </Header>
 
     <main>
-        <form>
+        <form id="poem-generator-form">
             <input type="text"placeholder="Enter a topic for your poem" autofocus 
             id="themeInput" required 
             autocomplete="off"
             class="instructions"/>
             <Input type="submit" class="submit-button"/>
         </form>
-<div class="poem">
-    Underneath my outside face
-    <br>
-    There's a face that none can see.
-    <br>
-    A little less smiley,
-    <br>
-</div>
+<div class="poem" id="poem"></div>
     </main>
 
     <footer>
