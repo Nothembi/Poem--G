@@ -7,6 +7,7 @@ function displayPoem(response) {
   });
 }
 
+
 function generatePoem(event) {
   event.preventDefault();
 
